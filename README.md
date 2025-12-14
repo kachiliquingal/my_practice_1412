@@ -31,13 +31,18 @@ To run this project locally, please follow these steps:
     git clone https://github.com/kachiliquingal/my_practice_1412.git
     ```
 
-2.  **Install dependencies:**
-    It is necessary to rebuild the `node_modules` folder based on `package.json`.
+2.  **Enter the project directory:**
+    ```bash
+    cd my_practice_1412
+    ```
+
+3.  **Install dependencies:**
+    It is crucial to install the packages inside the project folder.
     ```bash
     npm install
     ```
 
-3.  **Run the development server:**
+4.  **Run the development server:**
     ```bash
     npm run dev
     ```
